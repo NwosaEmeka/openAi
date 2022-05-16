@@ -1,0 +1,86 @@
+@import "/src/styles/global/colors";
+
+.gpt3__container {
+  width: 1170px;
+  height: 695px;
+  padding: 55px;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 0% 10%,
+    rgba(15, 66, 121, 1) 0%,
+    rgba(3, 27, 52, 1) 19%,
+    rgba(15, 66, 121, 1) 86%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 0% 10%,
+    rgba(15, 66, 121, 1) 0%,
+    rgba(3, 27, 52, 1) 19%,
+    rgba(15, 66, 121, 1) 86%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 0% 10%,
+    rgba(15, 66, 121, 1) 0%,
+    rgba(3, 27, 52, 1) 19%,
+    rgba(15, 66, 121, 1) 86%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 0% 10%,
+    rgba(15, 66, 121, 1) 0%,
+    rgba(3, 27, 52, 1) 19%,
+    rgba(15, 66, 121, 1) 86%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 0% 10%,
+    rgba(15, 66, 121, 1) 0%,
+    rgba(3, 27, 52, 1) 19%,
+    rgba(15, 66, 121, 1) 86%,
+    rgba(27, 120, 222, 1) 100%
+  );
+}
+
+.gpt3__feature-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 120px 0;
+
+  .header__text-sm {
+    width: 472px;
+  }
+}
+
+.gpt3__feature-main > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .p__text-sm {
+    width: 731px;
+  }
+}
+
+.gpt3__feature-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .sub__header {
+    margin-bottom: 40px;
+  }
+
+  & > div {
+    width: 334px;
+  }
+}

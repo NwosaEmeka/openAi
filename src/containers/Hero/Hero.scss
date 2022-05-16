@@ -1,0 +1,84 @@
+@import "/src/styles/global/colors";
+
+.hero__container {
+  display: flex;
+  width: 1169.34px;
+  margin: 0 auto;
+  padding: 16px;
+
+  .hero__image {
+    width: 667.41px;
+    height: 701.59px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .hero__content {
+    width: 779.29px;
+    height: 557.89px;
+
+    .header__text-lg {
+      margin: 100px 0 33px;
+    }
+
+    .p__text {
+      width: 554px;
+    }
+
+    .hero__form {
+      margin: 35px 0;
+
+      input[type="email"] {
+        width: 445px;
+        height: 73px;
+        padding: 24px 32px;
+        border-radius: 5px 0px 0px 5px;
+        background: $light-blue;
+        border: none;
+        outline: 0;
+        color: $light-text-color;
+        font-size: 20px;
+        line-height: 27px;
+      }
+
+      .hero__btn {
+        width: 160px;
+        height: 73px;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: $white;
+        background: $secondary-color;
+        border-radius: 0px 5px 5px 0px;
+
+        &:hover {
+          background: none;
+          border: 1px solid $secondary-color;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+
+    .hero__signup {
+      display: flex;
+      align-items: center;
+
+      &-img {
+        width: 181.79px;
+        height: 38px;
+        margin-right: 15px;
+      }
+
+      &-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 38px;
+        color: $white;
+      }
+    }
+  }
+}

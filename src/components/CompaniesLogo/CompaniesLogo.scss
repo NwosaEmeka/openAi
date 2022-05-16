@@ -1,0 +1,17 @@
+.companies {
+  width: 670px;
+  height: 25px;
+  margin: 20px auto 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 71.1px;
+    height: 24.15px;
+
+    img {
+      object-fit: contain;
+    }
+  }
+}
